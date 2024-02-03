@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Libraries\Architecture\Mvvm\src\BauMvvm.ViewModels\BauMvvm.ViewModels.csproj" />
     <ProjectReference Include="..\BauPromptImage.Application\BauPromptImage.Application.csproj" />
     <ProjectReference Include="..\Libraries\AiImageGenerator\LibAiImageGeneration\LibAiImageGeneration.csproj" />
     <ProjectReference Include="..\Libraries\AiImageGenerator\LibFakeAi.Api\LibFakeAi.Api.csproj" />
