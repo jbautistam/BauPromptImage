@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Explorers\BaseBlogsNodeViewModel.cs" />
+    <Compile Remove="Explorers\FolderNodeViewModel.cs" />
+    <Compile Remove="Explorers\TreeBlogsViewModel.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BauPromptImage.Application\BauPromptImage.Application.csproj" />
+    <ProjectReference Include="..\Libraries\AiImageGenerator\LibAiImageGeneration\LibAiImageGeneration.csproj" />
+    <ProjectReference Include="..\Libraries\AiImageGenerator\LibFakeAi.Api\LibFakeAi.Api.csproj" />
+    <ProjectReference Include="..\Libraries\AiImageGenerator\LibStableHorde.Api\LibStableHorde.Api.csproj" />
+  </ItemGroup>
+
+</Project>

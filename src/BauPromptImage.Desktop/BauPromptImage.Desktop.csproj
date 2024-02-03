@@ -1,0 +1,79 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Images\Accept.png" />
+    <None Remove="Resources\Images\ArrowDown.png" />
+    <None Remove="Resources\Images\ArrowFirst.png" />
+    <None Remove="Resources\Images\ArrowLast.png" />
+    <None Remove="Resources\Images\ArrowNext.png" />
+    <None Remove="Resources\Images\ArrowPrevious.png" />
+    <None Remove="Resources\Images\ArrowUp.png" />
+    <None Remove="Resources\Images\Close.png" />
+    <None Remove="Resources\Images\Copy.png" />
+    <None Remove="Resources\Images\Cut.png" />
+    <None Remove="Resources\Images\Delete.png" />
+    <None Remove="Resources\Images\Document.png" />
+    <None Remove="Resources\Images\Exit.png" />
+    <None Remove="Resources\Images\File.png" />
+    <None Remove="Resources\Images\Folder.png" />
+    <None Remove="Resources\Images\Image.png" />
+    <None Remove="Resources\Images\NewItem.png" />
+    <None Remove="Resources\Images\Save.png" />
+    <None Remove="Resources\Images\SaveAs.png" />
+    <None Remove="Resources\Images\WebBrowser.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BauPromptImage.ViewModels\BauPromptImage.ViewModels.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Images\Accept.png" />
+    <Resource Include="Resources\Images\ArrowDown.png" />
+    <Resource Include="Resources\Images\ArrowFirst.png" />
+    <Resource Include="Resources\Images\ArrowLast.png" />
+    <Resource Include="Resources\Images\ArrowNext.png" />
+    <Resource Include="Resources\Images\ArrowPrevious.png" />
+    <Resource Include="Resources\Images\ArrowUp.png" />
+    <Resource Include="Resources\Images\Close.png" />
+    <Resource Include="Resources\Images\Copy.png" />
+    <Resource Include="Resources\Images\Cut.png" />
+    <Resource Include="Resources\Images\Delete.png" />
+    <Resource Include="Resources\Images\Document.png" />
+    <Resource Include="Resources\Images\Exit.png" />
+    <Resource Include="Resources\Images\File.png" />
+    <Resource Include="Resources\Images\Folder.png" />
+    <Resource Include="Resources\Images\Image.png" />
+    <Resource Include="Resources\Images\NewItem.png" />
+    <Resource Include="Resources\Images\Save.png" />
+    <Resource Include="Resources\Images\SaveAs.png" />
+    <Resource Include="Resources\Images\WebBrowser.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Data\Prompts.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

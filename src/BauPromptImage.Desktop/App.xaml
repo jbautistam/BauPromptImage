@@ -1,0 +1,18 @@
+﻿<Application x:Class="BauPromptImage.Desktop.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:BauPromptImage.Desktop"
+			 xmlns:converter="clr-namespace:Bau.Libraries.BauMvvm.Views.Converters;assembly=BauMvvm.Views"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+		<ResourceDictionary>
+			<!-- Conversores -->
+			<converter:InverseBooleanConverter x:Key="InverseBooleanConverter" />
+			<converter:BoolToFontWeightConverter x:Key="BoolToFontWeightConverter" />
+			<converter:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+			<converter:InverseBoolToVisibilityConverter x:Key="InverseBoolToVisibilityConverter" />
+			<converter:ObjectToVisibilityConverter x:Key="ObjectToVisibilityConverter" />
+			<converter:MVVMColorConverter x:Key="MVVMColorConverter" />
+		</ResourceDictionary>
+	</Application.Resources>
+</Application>
