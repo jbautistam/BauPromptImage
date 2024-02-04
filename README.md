@@ -7,7 +7,7 @@ esperar.
 
 Al abrir la aplicación se nos muestra un archivo vacío:
 
-![Bau Image Prompt Generator](/docs/prompt-image/images/bau-prompt-images-generator-1.png)
+![Bau Image Prompt Generator](https://jbautistam.github.io/docs/prompt-image/images/bau-prompt-images-generator-1.png)
 
 En la parte superior está la barra de herramientas donde podemos crear un archivo, abrir un archivo existente, grabar las modificaciones o
 añadir / quitar versiones al archivo.
@@ -42,12 +42,12 @@ el proceso.
 Esta proceso puede tardar un tiempo, durante ese periodo, la API nos irá informando de la posición de la orden en la cola, del número de elementos
 procesados y de los errores. Veremos este progreso en la parte inferior de la aplicación:
 
-![Bau Image Prompt Generator](/docs/prompt-image/images/bau-prompt-images-generator-2.png)
+![Bau Image Prompt Generator](https://jbautistam.github.io/docs/prompt-image/images/bau-prompt-images-generator-2.png)
 
 Una vez que la API indique que se han terminado de procesar las imágenes, la aplicación las descarga y nos la muestra
 en una lista:
 
-![Bau Image Prompt Generator](/docs/prompt-image/images/bau-prompt-images-generator-3.png)
+![Bau Image Prompt Generator](https://jbautistam.github.io/docs/prompt-image/images/bau-prompt-images-generator-3.png)
 
 Si pulsamos dos veces sobre la imagen se nos abrirá esta imagen en una ventana adicional.
 
@@ -57,7 +57,7 @@ de archivo y el código de versión.
 La pestaña *Ideas* que se encuentra agrupada con la lista de imágenes, nos muestra un árbol de categorías con textos que 
 podemos añadir a nuestro prompt:
 
-![Bau Image Prompt Generator: ideas](/docs/prompt-image/images/bau-prompt-images-generator-4.png)
+![Bau Image Prompt Generator: ideas](https://jbautistam.github.io/docs/prompt-image/images/bau-prompt-images-generator-4.png)
 
 incluye categorías como estilos de dibujos, nombres de artistas, nombres de cámaras y lentes o puntos de vista, etc...
 
@@ -65,7 +65,7 @@ incluye categorías como estilos de dibujos, nombres de artistas, nombres de cáma
 
 La solución se divide en varios proyectos:
 
-![Bau Image Prompt Generator: proyectos](/docs/prompt-image/images/bau-prompt-images-generator-5.png)
+![Bau Image Prompt Generator: proyectos](https://jbautistam.github.io/docs/prompt-image/images/bau-prompt-images-generator-5.png)
 
 Contiene dos partes, en la raíz de la solución:
 
