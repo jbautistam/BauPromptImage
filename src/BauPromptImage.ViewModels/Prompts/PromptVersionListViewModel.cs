@@ -99,8 +99,8 @@ public class PromptVersionListViewModel : BaseObservableObject
 		if (SelectedItem is not null)
 		{
 			// Compila los datos
-			PositiveResult = PromptFileViewModel.MainViewModel.PromptGenerator.Compile(SelectedItem.Positive);
-			NegativeResult = PromptFileViewModel.MainViewModel.PromptGenerator.Compile(SelectedItem.Negative);
+			PositiveResult = SelectedItem.Positive;
+			NegativeResult = SelectedItem.Negative;
 			// Genera el prompt
 			await PromptFileViewModel.MainViewModel.TasksQueueViewModel.AddTaskAsync(SelectedItem, cancellationToken);
 		}

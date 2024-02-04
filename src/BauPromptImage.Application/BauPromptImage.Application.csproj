@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Parser\**" />
+    <EmbeddedResource Remove="Parser\**" />
+    <None Remove="Parser\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Bau.Libraries.LibHelper" Version="1.1.29" />
     <PackageReference Include="Bau.Libraries.LibMarkup" Version="1.1.4" />
   </ItemGroup>

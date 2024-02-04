@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{D7FB669B-2335-4C81-BDEE-6A3E9971C476}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BauPromptImage.Application", "src\BauPromptImage.Application\BauPromptImage.Application.csproj", "{38A91D48-511A-4582-BC46-ABCEBF8918EC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BauPromptImage.ViewModels", "src\BauPromptImage.ViewModels\BauPromptImage.ViewModels.csproj", "{9989C046-4ADF-4656-B878-4C529380D268}"
@@ -20,12 +18,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibStableHorde.Api", "src\Libraries\AiImageGenerator\LibStableHorde.Api\LibStableHorde.Api.csproj", "{FE8C1D13-D538-4EDC-BC0E-12782FD2B1E8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibFakeAi.Api", "src\Libraries\AiImageGenerator\LibFakeAi.Api\LibFakeAi.Api.csproj", "{23A1A738-5DF1-4F1C-9950-C564D1992714}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BauMvvm.ViewModels", "..\..\Libraries\Architecture\Mvvm\src\BauMvvm.ViewModels\BauMvvm.ViewModels.csproj", "{DA30BA49-6711-4DA8-B3E1-3906071C3634}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BauMvvm.Views", "..\..\Libraries\Architecture\Mvvm\src\BauMvvm.Views\BauMvvm.Views.csproj", "{63A63310-CBBC-424E-A836-C137E41B9506}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BauMvvm.Views.Wpf", "..\..\Libraries\Architecture\Mvvm\src\BauMvvm.Views.Wpf\BauMvvm.Views.Wpf.csproj", "{4B923E98-156B-49B2-AA0F-49581DE4502E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,18 +53,6 @@ Global
 		{23A1A738-5DF1-4F1C-9950-C564D1992714}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23A1A738-5DF1-4F1C-9950-C564D1992714}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23A1A738-5DF1-4F1C-9950-C564D1992714}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DA30BA49-6711-4DA8-B3E1-3906071C3634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA30BA49-6711-4DA8-B3E1-3906071C3634}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA30BA49-6711-4DA8-B3E1-3906071C3634}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA30BA49-6711-4DA8-B3E1-3906071C3634}.Release|Any CPU.Build.0 = Release|Any CPU
-		{63A63310-CBBC-424E-A836-C137E41B9506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63A63310-CBBC-424E-A836-C137E41B9506}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{63A63310-CBBC-424E-A836-C137E41B9506}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63A63310-CBBC-424E-A836-C137E41B9506}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4B923E98-156B-49B2-AA0F-49581DE4502E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4B923E98-156B-49B2-AA0F-49581DE4502E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4B923E98-156B-49B2-AA0F-49581DE4502E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4B923E98-156B-49B2-AA0F-49581DE4502E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,9 +62,6 @@ Global
 		{0380AB21-1597-4E19-A62C-7E9D1E4FE576} = {A74158B3-B803-4A21-BD29-5EB6B7975039}
 		{FE8C1D13-D538-4EDC-BC0E-12782FD2B1E8} = {A74158B3-B803-4A21-BD29-5EB6B7975039}
 		{23A1A738-5DF1-4F1C-9950-C564D1992714} = {A74158B3-B803-4A21-BD29-5EB6B7975039}
-		{DA30BA49-6711-4DA8-B3E1-3906071C3634} = {D7FB669B-2335-4C81-BDEE-6A3E9971C476}
-		{63A63310-CBBC-424E-A836-C137E41B9506} = {D7FB669B-2335-4C81-BDEE-6A3E9971C476}
-		{4B923E98-156B-49B2-AA0F-49581DE4502E} = {D7FB669B-2335-4C81-BDEE-6A3E9971C476}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {64AB4EEE-3A94-46B5-BCF8-C36CB9FAFD9F}

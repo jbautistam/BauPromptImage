@@ -32,11 +32,6 @@ public class PromptGenerator
 	}
 
 	/// <summary>
-	///		Compila un prompt
-	/// </summary>
-	public string Compile(string value) => new Parser.PromptParser().Parse(value);
-
-	/// <summary>
 	///		Categorías
 	/// </summary>
 	public Models.Categories.CategoryCollectionModel Categories { get; } = new();
